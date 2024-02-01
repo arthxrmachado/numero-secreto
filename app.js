@@ -13,7 +13,7 @@ function exibirTextoNaTela(tag, texto) {
 // função para exibir a mensagem inicial na tela quando um jogo começa ou é reiniciado
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do Número Secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100');
 }
 
 // gerando número aleatório
