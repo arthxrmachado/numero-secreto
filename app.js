@@ -1,6 +1,6 @@
 // chamando funções
 let listaSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 50;
 novoJogo();
 
 // alterando o 'h1' e o 'p' lá da página html
@@ -13,7 +13,7 @@ function exibirTextoNaTela(tag, texto) {
 // função para exibir a mensagem inicial na tela quando um jogo começa ou é reiniciado
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do Número Secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 50');
 }
 
 // gerando número aleatório
